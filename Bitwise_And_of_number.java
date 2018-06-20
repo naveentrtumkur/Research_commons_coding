@@ -8,7 +8,7 @@ class Solution {
         {
             m = m >> 1;
             n = n >>1;
-            rightShifted_bits = rightShifted_bits + 1;
+            rightShifted_bits = rightShifted_bits << 1;
         }
         
         return rightShifted_bits * m;
